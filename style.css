@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eee;
+}
+
+#enemy {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: fixed;
+    top: 0px;
+}
+
+#player {
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+}
